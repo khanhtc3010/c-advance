@@ -111,7 +111,6 @@ void* findMaxSizeOfDuplicateSet(void *buf, size_t size, size_t total, int (*comp
 	}
 
 	mySort(buf, size, total, compare);
-
 	memcpy(temp, buf, size);
 
 	for(i = 0; i < total; i++) {
